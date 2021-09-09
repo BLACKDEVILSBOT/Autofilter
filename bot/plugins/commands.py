@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤩Join Main Channel🤩', url=f"{MT_CHANNEL}"
+                                    '⭕️Join Main Channel⭕️', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🙏 Join My Goop 🙏', url=f"{chathurmukhamcom}"
+                                    '😈 Join My Group 😈', url=f"{chathurmukhamcom}"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️ MY GROOP JOIN ⭕️', url="https://t.me/Movie_hut_group"
+                                    '😈 MY Group JOIN 😈', url="https://t.me/Movie_hut_group"
                                 )
                         ]
                     ]
@@ -106,7 +106,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤗 Join My Canneil 🤗', url="https://t.me/Movie_hut_group"
+                                    '⭕️ Join My Channel ⭕️', url="https://t.me/Movie_hut_group"
                                 )
                         ]
                     ]
@@ -125,7 +125,7 @@ async def start(bot, update):
         InlineKeyboardButton('⭕️Group', url=f'{MT_GROUP}'),
         InlineKeyboardButton('Channel📁', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('⭕️ Join My Goop ⭕️', url='https://t.me/Movie_hut_group')
+        InlineKeyboardButton('⭕️ Join My Group ⭕️', url='https://t.me/Movie_hut_group')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
