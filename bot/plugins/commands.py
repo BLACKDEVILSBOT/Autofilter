@@ -68,7 +68,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '😈 Join My Group 😈', url=f"{chathurmukhamcom}"
+                                    '😈 Join My Group 😈', url=f"{MT_CHANNEL}"
                                 )
                         ]
                     ]
