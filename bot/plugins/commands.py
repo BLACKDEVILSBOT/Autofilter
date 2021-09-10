@@ -120,12 +120,12 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('😈Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('Not work 😂', callback_data="help")
+        InlineKeyboardButton('Help 😈', callback_data="help")
     ],[
         InlineKeyboardButton('⭕️Group', url=f'{MT_GROUP}'),
         InlineKeyboardButton('Channel📁', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('⭕️ Join My Group ⭕️', url='https://t.me/Movie_hut_group')
+        InlineKeyboardButton('Developers🛠️', url='https://t.me/Movie_hut_group')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
