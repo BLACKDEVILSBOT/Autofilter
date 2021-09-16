@@ -11,34 +11,8 @@ class Translation(object):
 <b></b>
 <b></b>""" 
     HELP_TEXT = """
-<b>Don't Use Me😅!?</b>
-
-<i>
-->
-->
-</i>
-
-<b>ഒന്ന് പോടാ (അവൻ help ചോദിച്ചു വന്നിരികുന്നു😒😏) :</b>
-
-    -> <code>/add chat_id</code>
-                OR                  - <b></b>
-     <code>/add @Username</code>
-     
-    -> <code>/del chat_id</code>
-                OR                  - <b></b>
-     <code>/del @Username</code>
-     
-    -> <code>/delall</code>  - <b></b>
-    
-    -> <code>/settings</code> -  <b></b>
-
-            -> <code>Channel</code> - <b></b>
-            
-            -> <code>Filter Types</code> - <b></b>
-
-            -> <code>Configure</code> - <b></b>
-            
-            -> <code>Status</code> - <b></b>
+<b>Don't Use Me😅!?<b>
+<b>ഒന്ന് പോടാ അവൻ help ചോദിച്ചു വന്നിരികുന്നു😒😏</b>
             
 <b><a href="https://t.me/THOMAS_MOVIE_HUT">© THOMAS_MOVIE_HUT</a></b>
 """
