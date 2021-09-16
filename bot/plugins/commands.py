@@ -68,7 +68,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🎬 New movies 🎬', url=f"{MT_CHANNEL}"
+                                    '🗣️ JOIN MY GROUP 🗣️', url=f"{MT_GROUP}"
                                 )
                         ]
                     ]
@@ -119,11 +119,11 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('😈Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
-        InlineKeyboardButton('Help 😈', callback_data="help")
+        InlineKeyboardButton('🛠️Creater', url=f'https://t.me/{MRK_YT_MASTER}'),
+        InlineKeyboardButton('Help 🔧', callback_data="help")
     ],[
-        InlineKeyboardButton('⭕️Group', url=f'{MT_GROUP}'),
-        InlineKeyboardButton('Channel📁', url=f'{MT_CHANNEL}')
+        InlineKeyboardButton('🗣️Group', url=f'{MT_GROUP}'),
+        InlineKeyboardButton('Channel🗂️', url=f'{MT_CHANNEL}')
     ],[
         InlineKeyboardButton('Developers🛠️', url='https://t.me/Movie_hut_group')
     ]]
