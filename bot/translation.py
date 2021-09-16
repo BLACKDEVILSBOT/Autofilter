@@ -40,14 +40,14 @@ class Translation(object):
             
             -> <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
             
-<b><a href="https://t.me/Mo_Tech_YT">© Mo Tech YT</a></b>
+<b><a href="https://t.me/@THOMAS_MOVIE_HUT">© THOMAS_MOVIE_HUT</a></b>
 """
     
     ABOUT_TEXT = """<b>➥ 😎Name</b> : <b>Pro Auto Filter Bot</b>
 
-<b>>➥😈Master</b> : <b><a href="https://t.me/AlbertEinstein_TG">👤Albert Einstein</a></b>
+<b>>➥😈Master</b> : <b><a href="https://t.me/THOMAS_MOVIE_HUT">👤THOMAS_MOVIE_HUT</a></b>
 
-<b>➥ 🔷Editor</b> : <b><a href="https://t.me/MRk_YT">👤Mrk YT</a></b>
+<b>➥ 🔷Editor</b> : <b><a href="https://t.me/THOMAS_MOVIE_HUT">👤THOMAS_MOVIE_HUT</a></b>
 
 <b>➥ 🔥Language</b> : <b>Python3<b>
 
