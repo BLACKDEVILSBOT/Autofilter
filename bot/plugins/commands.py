@@ -62,13 +62,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '⭕️Join Main Channel⭕️', url=f"{MT_CHANNEL}"
+                                    '🎬Join Main Channel🎬', url=f"{MT_CHANNEL}"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '😈 Join My Group 😈', url=f"{MT_CHANNEL}"
+                                    '🎬 New movies 🎬', url=f"{MT_CHANNEL}"
                                 )
                         ]
                     ]
@@ -87,7 +87,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '😈 GROUP 😈', url="https://t.me/Movie_hut_group"
+                                    '🎬 GROUP 🎬', url="https://t.me/Movie_hut_group"
                                 )
                         ]
                     ]
@@ -164,10 +164,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('👤 Mrk YT👤', url='https://t.me/MRK_YT'),
-        InlineKeyboardButton('Skp KP👤', url='https://t.me/Skp_Kp')
+        InlineKeyboardButton('👤 OWNER👤', url='https://t.me/THOMAS_MOVIE_HUT'),
+        InlineKeyboardButton('THOMAS👤', url='https://t.me/THOMAS_MOVIE_HUT')
     ],[
-        InlineKeyboardButton('👤 AlbertEinstein 👤', url='https://t.me/AlbertEinsteinTG')
+        InlineKeyboardButton('👤 BOT DEVELOPER👤', url='https://t.me/THOMAS_MOVIE_HUT')
     ],[
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
