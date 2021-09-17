@@ -11,7 +11,6 @@ class Translation(object):
 <b></b>
 <b></b>""" 
     HELP_TEXT = """
-<b>Don't Use Me😅!?<b>
 <b>ഒന്ന് പോടാ അവൻ help ചോദിച്ചു വന്നിരികുന്നു😒😏</b>
             
 <b><a href="https://t.me/THOMAS_MOVIE_HUT">© THOMAS_MOVIE_HUT</a></b>
