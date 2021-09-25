@@ -125,7 +125,7 @@ async def start(bot, update):
         InlineKeyboardButton('⚠️GROUP', url=f'{MT_GROUP}'),
         InlineKeyboardButton('🔉CHANNEL', url=f'{MT_CHANNEL}')
     ],[
-        InlineKeyboardButton('🎖️JOIN MAIN GROUP🎖️', url='https://t.me/Movie_hut_group')
+        InlineKeyboardButton('🔒CLOSE', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
