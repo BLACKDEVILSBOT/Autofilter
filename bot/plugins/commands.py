@@ -127,17 +127,11 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('🔐CLOSE', callback_data='close')
     ]]
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.START_TEXT.format(
-                update.from_user.first_name),
-        reply_markup=reply_markup,
-        parse_mode="html",
-        reply_to_message_id=update.message_id
-    )
+        
+    await message.reply_photo(
+        photo="https://telegra.ph/file/5100de4b8cded610852be.jpg",
+        caption=Translation.START_TEXT.format(update.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
@@ -148,16 +142,11 @@ async def help(bot, update):
     ],[
         InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎 🔐', callback_data='close')
     ]]
-    
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.HELP_TEXT,
-        reply_markup=reply_markup,
-        parse_mode="html",
-        reply_to_message_id=update.message_id
-    )
+        
+    await message.reply_photo(
+        photo="https://telegra.ph/file/5100de4b8cded610852be.jpg",
+        caption=Translation.HELP_TEXT.format(update.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @Client.on_message(filters.command(["about"]) & filters.private, group=1)
@@ -172,13 +161,9 @@ async def about(bot, update):
         InlineKeyboardButton('🏠 Home', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.ABOUT_TEXT,
-        reply_markup=reply_markup,
-        disable_web_page_preview=True,
-        parse_mode="html",
-        reply_to_message_id=update.message_id
-    )
+
+    await message.reply_photo(
+        photo="https://telegra.ph/file/5100de4b8cded610852be.jpg",
+        caption=Translation.ABOUT_TEXT.format(update.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup(buttons))
+
